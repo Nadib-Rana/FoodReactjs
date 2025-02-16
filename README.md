@@ -19,6 +19,10 @@ npm i
 ```
 npm start
 ```
+### 6. Router install
+```
+npm install react-router-dom
+```
 
 
 
