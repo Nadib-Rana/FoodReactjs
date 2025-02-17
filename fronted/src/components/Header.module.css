@@ -1,9 +1,8 @@
 
 
-  
   .header {
     height: 100vh;
-    width: 560;
+    width: auto;
     background-image: url('/public/img/banner.png');
     background-size: cover;
     background-position: center;
@@ -56,12 +55,62 @@
     background-color: #555;
     border-radius: 4px;
   }
+ .bannerText{
+        position: absolute;
+        left: 40px;
+        text-align: left;
+    }
+
+  .bannertitle{
+    left: 60px;
+    font-size: 66px;
+
+  }
+  .bannerdesc{
+    color: FFFFFF;
+    font-size: 26px;
+    color: #FFFFFF;
+  }
+
+  .GetYourOrder{
+    background-color: #F3F04B;
+    color: #655959;
+    font-size: 36px;
+    height: 78px;
+    width: 342px;
+    border-radius: 15px;
+    border: none;
+  }
+
+  .GetYourOrder:hover{
+    background-color: #222821;
+    color: #ffffff;
+    font-size: 36px;
+    height: 78px;
+    width: 342px;
+    border-radius: 15px;
+    border: none;
+  }
   
   /* Responsive styles */
   @media (max-width: 768px) {
+    
+    .bannerText{
+        position: absolute;
+        left: 40px;
+        top: -0px;
+        text-align: center;
+    }
+    .bannerdesc{
+        color: FFFFFF;
+        font-size: 20px;
+        color: #FFFFFF;
+      }
+      
     .container {
       flex-direction: column;
       align-items: flex-start;
+      
     }
   
     .hamburger {

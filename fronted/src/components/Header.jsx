@@ -39,6 +39,18 @@ const Header = () => {
           </ul>
         </nav>
       </div>
+      <div className={classes.bannerText}>
+        <h2 className={classes.bannertitle}>
+          FRESH <span style={{ color: '#F3F04B' }} > FOOD IN THE </span>  <br />
+          MORNING
+        </h2>
+        <p className={classes.bannerdesc}>
+          Lorem Ipsum, Dolor Sit Amet Consectetur AdpjscngEllt Placeat <br />
+          I-abore. Sint Cupiditate Distinctio Tempora Recendi;.
+        </p>
+        <button className={classes.GetYourOrder}>Get Your Order</button>
+      </div>
+
     </header>
   );
 }
