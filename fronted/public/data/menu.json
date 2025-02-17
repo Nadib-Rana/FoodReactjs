@@ -1,0 +1,16 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "name": "Margherita Pizza",
+        "price": 8.99,
+        "description": "Classic margherita pizza with fresh tomatoes, mozzarella cheese, and basil."
+      },
+      {
+        "id": 2,
+        "name": "Caesar Salad",
+        "price": 6.99,
+        "description": "Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese."
+      }
+    ]
+  }
